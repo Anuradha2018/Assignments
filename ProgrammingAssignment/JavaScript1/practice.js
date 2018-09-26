@@ -44,60 +44,59 @@ alert(num + 'is not prime');
 
 
 function addition(a,b){
-return a+b;
-}
-function substraction(a,b){
-return a-b;
-}
-function multiplication(a,b){
-return a*b;
-}
-function division(a,b){
-return a/b;
-} 
-function power(a,b){
-return Math.pow(a,b);
-}
-let operation = parseInt(prompt('Enter an operation'));
-switch(operation){
-case 1:
-let a = prompt('enter first number');
-a = parseInt(a);
-let b = prompt('enter second number');
-b = parseInt(b);
-addition(a,b);
-alert(addition(a,b));
-break;
-case 2:
-let c = prompt('enter first number');
-c = parseInt(c);
-let d = prompt('enter second number');
-d = parseInt(d);
-alert(substraction(c,d));
-break;
-case 3:
-let e = prompt('enter first number');
-e = parseInt(e);
-let f = prompt('enter second number');
-f = parseInt(f);
-alert(multiplication(e,f));
-break;
-case 4:
-let g = prompt('enter first number');
-g = parseInt(g);
-let h = prompt('enter second number');
-h = parseInt(h);
-alert(division(g,h));
-break;
-case 5:
-let i = prompt('enter number');
-i = parseInt(i);
-let j = prompt('enter power');
-j = parseInt(j);
-alert(power(i,j));
-break;
-case 6:
-exit();
-break;
-}
-
+	return a+b;
+	}
+	function substraction(a,b){
+	return a-b;
+	}
+	function multiplication(a,b){
+	return a*b;
+	}
+	function division(a,b){
+	return a/b;
+	} 
+	function power(a,b){
+	return Math.pow(a,b);
+	}
+	let operation = parseInt(prompt('Enter an operation'));
+	switch(operation){
+	case 1:
+	let a = prompt('enter first number');
+	a = parseInt(a);
+	let b = prompt('enter second number');
+	b = parseInt(b);
+	addition(a,b);
+	alert(addition(a,b));
+	
+	case 2:
+	let c = prompt('enter first number');
+	c = parseInt(c);
+	let d = prompt('enter second number');
+	d = parseInt(d);
+	alert(substraction(c,d));
+	
+	case 3:
+	let e = prompt('enter first number');
+	e = parseInt(e);
+	let f = prompt('enter second number');
+	f = parseInt(f);
+	alert(multiplication(e,f));
+	
+	case 4:
+	let g = prompt('enter first number');
+	g = parseInt(g);
+	let h = prompt('enter second number');
+	h = parseInt(h);
+	alert(division(g,h));
+	
+	case 5:
+	let i = prompt('enter number');
+	i = parseInt(i);
+	let j = prompt('enter power');
+	j = parseInt(j);
+	alert(power(i,j));
+	
+	case 6:
+	exit();
+	break;
+	}
